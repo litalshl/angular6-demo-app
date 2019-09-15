@@ -3,10 +3,10 @@ import { HttpService } from '../http.service';
 
 @Component({
   selector: 'app-contact-us',
-  templateUrl: './contact-us.component.html',
-  styleUrls: ['./contact-us.component.scss']
+  templateUrl: './list.component.html',
+  styleUrls: ['./list.component.scss']
 })
-export class ContactUsComponent implements OnInit {
+export class ListComponent implements OnInit {
 
   brews: Object;
 
